@@ -2,7 +2,7 @@
     "minimum-stability": "dev",
     "require": {
         "aoepeople/composer-installers": "*",
-        "ecomdev/ecomdev_phpunit": "v0.3.7"
+        "ecomdev/ecomdev_phpunit": "0.3.7"
     },
     "config": {
         "bin-dir": "bin"
