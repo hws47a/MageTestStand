@@ -34,5 +34,5 @@ if [ -d "${WORKSPACE}/vendor" ] ; then
 fi
  
 cd ${BUILDENV}/htdocs
-${BUILDENV}/bin/phpunit --colors -d display_errors=1
+${BUILDENV}/bin/phpunit --colors -d display_errors=1  --coverage-clover ${TRAVIS_BUILD_DIR}/build/logs/clover.xml
 
