@@ -1,4 +1,6 @@
 {
+    "name": "MageTestStand",
+    "description": "This tool is used to build a minimal Magento environment that allows to run PHPUnit tests for a Magento module on Travis CI",
     "minimum-stability": "dev",
     "require": {
         "aoepeople/composer-installers": "*",
@@ -8,6 +10,10 @@
         "bin-dir": "bin"
     },
     "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.firegento.com"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git"
